@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2112D5E1BA7FD7100D6F52E /* SearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2112D5D1BA7FD7100D6F52E /* SearchTableViewController.m */; };
 		F266BBF11BA7F6D200C7172C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F266BBF01BA7F6D200C7172C /* main.m */; };
 		F266BBF41BA7F6D200C7172C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F266BBF31BA7F6D200C7172C /* AppDelegate.m */; };
 		F266BBF71BA7F6D200C7172C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F266BBF61BA7F6D200C7172C /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F2112D5C1BA7FD7100D6F52E /* SearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewController.h; sourceTree = "<group>"; };
+		F2112D5D1BA7FD7100D6F52E /* SearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableViewController.m; sourceTree = "<group>"; };
 		F266BBEB1BA7F6D200C7172C /* TestSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F266BBEF1BA7F6D200C7172C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F266BBF01BA7F6D200C7172C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				F266BBF31BA7F6D200C7172C /* AppDelegate.m */,
 				F266BBF51BA7F6D200C7172C /* ViewController.h */,
 				F266BBF61BA7F6D200C7172C /* ViewController.m */,
+				F2112D5C1BA7FD7100D6F52E /* SearchTableViewController.h */,
+				F2112D5D1BA7FD7100D6F52E /* SearchTableViewController.m */,
 				F266BBF81BA7F6D200C7172C /* Main.storyboard */,
 				F266BBFB1BA7F6D200C7172C /* Images.xcassets */,
 				F266BBFD1BA7F6D200C7172C /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				F266BBF71BA7F6D200C7172C /* ViewController.m in Sources */,
 				F266BBF41BA7F6D200C7172C /* AppDelegate.m in Sources */,
 				F266BBF11BA7F6D200C7172C /* main.m in Sources */,
+				F2112D5E1BA7FD7100D6F52E /* SearchTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +424,7 @@
 				F266BC101BA7F6D200C7172C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F266BC111BA7F6D200C7172C /* Build configuration list for PBXNativeTarget "TestSearchTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +433,7 @@
 				F266BC131BA7F6D200C7172C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
