@@ -26,7 +26,7 @@
     _searchDisplay.searchResultsDelegate =self;
     _searchDisplay.searchResultsTableView.tableFooterView = [UIView new];
     
-    self.edgesForExtendedLayout = UIRectEdgeNone;//
+    self.edgesForExtendedLayout = UIRectEdgeNone;
     self.definesPresentationContext = YES;
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
